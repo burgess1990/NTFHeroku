@@ -1,15 +1,14 @@
 source "https://rubygems.org"
-
-group :development, :test do
   gem "sinatra"
   gem "activerecord"
   gem "activesupport"
   gem "sinatra-activerecord"
-  gem "sqlite3"
-end
-
-group :production do
-  gem "pg"
-end
+  gem “json”
+  gem "rack/test"
+  gem “minitest"
+  gem "pry=byebug"
+  gem "faker"
+  gem "rack/test"
+  gem "bulk-insert-active-record"
 
 
